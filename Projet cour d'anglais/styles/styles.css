@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+}
+
+.slider {
+  width: 80%;
+  min-height: 100vh;
+  aspect-ratio: 16/9;
+  background: #000;
+}
+
+.slider-background {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(80%);
+  position: absolute;
+}
+
+.slider-content {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  text-align: center;
+}
+
+h1 {
+  color: darkcyan;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.slider-content p {
+  color: blueviolet;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.section {
+  padding: 100px 0;
+  color: #fff;
+}
+
+.boxed {
+  max-width: 1280px;
+  margin: auto;
+  position: absolute;
+  top: 40%;
+  left: 80%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w60 {
+  width: 60%;
+  color: darkgray;
+}
+
+.sextion {
+  padding: 100px 0;
+  color: azure;
+}
+
+.boxer {
+  max-width: 1280px;
+  margin: auto;
+  position: absolute;
+  top: 65%;
+  left: 80%;
+}
+
+.button {
+  background: linear-gradient(70deg, orangered, blueviolet);
+  border: none;
+  color: #fff;
+  padding: 1%;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  border-radius: 5rem;
+  position: absolute;
+  left: 83%;
+  top: 92%;
+}
